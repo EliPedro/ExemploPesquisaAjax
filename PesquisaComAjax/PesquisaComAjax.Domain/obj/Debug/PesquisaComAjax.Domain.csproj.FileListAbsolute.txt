@@ -1,0 +1,4 @@
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Domain\bin\Debug\PesquisaComAjax.Domain.dll
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Domain\bin\Debug\PesquisaComAjax.Domain.pdb
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Domain\obj\Debug\PesquisaComAjax.Domain.dll
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Domain\obj\Debug\PesquisaComAjax.Domain.pdb

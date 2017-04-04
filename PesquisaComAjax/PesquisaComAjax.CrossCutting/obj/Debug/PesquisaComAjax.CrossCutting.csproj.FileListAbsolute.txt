@@ -1,0 +1,5 @@
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.CrossCutting\bin\Debug\PesquisaComAjax.CrossCutting.dll
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.CrossCutting\bin\Debug\PesquisaComAjax.CrossCutting.pdb
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.CrossCutting\obj\Debug\PesquisaComAjax.CrossCutting.csprojResolveAssemblyReference.cache
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.CrossCutting\obj\Debug\PesquisaComAjax.CrossCutting.dll
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.CrossCutting\obj\Debug\PesquisaComAjax.CrossCutting.pdb

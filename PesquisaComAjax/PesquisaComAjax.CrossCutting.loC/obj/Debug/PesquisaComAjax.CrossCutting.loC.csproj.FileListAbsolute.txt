@@ -1,0 +1,17 @@
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.CrossCutting.loC\bin\Debug\PesquisaComAjax.CrossCutting.loC.dll
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.CrossCutting.loC\bin\Debug\PesquisaComAjax.CrossCutting.loC.pdb
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.CrossCutting.loC\bin\Debug\Ninject.dll
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.CrossCutting.loC\bin\Debug\PesquisaComAjax.Application.dll
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.CrossCutting.loC\bin\Debug\PesquisaComAjax.Data.dll
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.CrossCutting.loC\bin\Debug\PesquisaComAjax.Domain.dll
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.CrossCutting.loC\bin\Debug\EntityFramework.dll
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.CrossCutting.loC\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.CrossCutting.loC\bin\Debug\PesquisaComAjax.Application.pdb
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.CrossCutting.loC\bin\Debug\PesquisaComAjax.Data.pdb
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.CrossCutting.loC\bin\Debug\PesquisaComAjax.Domain.pdb
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.CrossCutting.loC\bin\Debug\Ninject.xml
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.CrossCutting.loC\bin\Debug\EntityFramework.xml
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.CrossCutting.loC\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.CrossCutting.loC\obj\Debug\PesquisaComAjax.CrossCutting.loC.csprojResolveAssemblyReference.cache
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.CrossCutting.loC\obj\Debug\PesquisaComAjax.CrossCutting.loC.dll
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.CrossCutting.loC\obj\Debug\PesquisaComAjax.CrossCutting.loC.pdb
