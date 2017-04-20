@@ -4,7 +4,7 @@ using PesquisaComAjax.Domain.Entities;
 using PesquisaComAjax.Mvc.ViewModels;
 using System;
 using System.Collections.Generic;
-using System.Linq;
+using System.IO;
 using System.Web;
 using System.Web.Mvc;
 
@@ -44,20 +44,40 @@ namespace PesquisaComAjax.Mvc.Controllers
         }
 
         // POST: Produtos/Create
+        [Route("Create")]
         [HttpPost]
-        public ActionResult Create(ProdutoViewModel produto)
-        {
-            if(ModelState.IsValid)
+        public ActionResult Create(ProdutoViewModel produto, HttpPostedFileBase fotoUpload)
+        {     
+                   
+            if (ModelState.IsValid)
             {
-                var produtoDomain = Mapper.Map<ProdutoViewModel, Produto>(produto);
-                _serviceProdutoApp.Add(produtoDomain);
 
-                return RedirectToAction("Index");
+                if (fotoUpload != null && fotoUpload.ContentLength > 0)
+                {
+                    if (Application.Helpers.IsValid.IsImage(fotoUpload))
+                    {
+                        produto.Imagem = Application.Helpers.IsValid.ConvertToBytes(fotoUpload);
+
+                        var produtoDomain = Mapper.Map<ProdutoViewModel, Produto>(produto);
+                        _serviceProdutoApp.Add(produtoDomain);
+
+                        return RedirectToAction("Index");
+
+                    }
+                    else
+                    {
+                        ModelState.AddModelError("ImagemFile", "Formato não aceito");
+                        return View(produto);
+
+                    }
+                }
+
             }
-
             return View(produto);
+
         }
 
+      
 
         public ActionResult Pesquisar(string Pesquisar = "")
         {
@@ -115,5 +135,30 @@ namespace PesquisaComAjax.Mvc.Controllers
           
            return RedirectToAction("Index");
         }
+
+        [HttpGet]
+        public ActionResult Portfolio()
+        {
+
+            var produtoView = Mapper.Map<IEnumerable<Produto>,IEnumerable<ProdutoViewModel>>(_serviceProdutoApp.GetAll());
+
+            return View(produtoView);
+            
+        }
+
+        [HttpGet]
+        public ActionResult ExibirProduto(int id)
+        {
+            
+
+            return View();
+
+        }
+
+        public  byte[] GetImageFromDataBase()
+        {
+            return _serviceProdutoApp.ObterImagens();
+        }
+
     }
 }

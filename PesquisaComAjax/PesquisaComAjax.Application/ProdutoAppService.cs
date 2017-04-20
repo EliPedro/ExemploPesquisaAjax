@@ -15,6 +15,11 @@ namespace PesquisaComAjax.Application
             _service = service;
         }
 
+        public byte[] ObterImagens()
+        {
+            return _service.ObterImagens();
+        }
+
         public IEnumerable<Produto> PesquisarPorNome(string nome)
         {
             return _service.PesquisarPorNome(nome);

@@ -31,6 +31,7 @@ C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAj
 C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Mvc\bin\Ninject.Web.Mvc.dll
 C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Mvc\bin\PesquisaComAjax.Application.dll
 C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Mvc\bin\PesquisaComAjax.CrossCutting.loC.dll
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Mvc\bin\PesquisaComAjax.Data.dll
 C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Mvc\bin\PesquisaComAjax.Domain.dll
 C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Mvc\bin\System.Web.Helpers.dll
 C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Mvc\bin\System.Web.Mvc.dll
@@ -41,11 +42,11 @@ C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAj
 C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Mvc\bin\System.Web.WebPages.Razor.dll
 C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Mvc\bin\WebActivatorEx.dll
 C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Mvc\bin\WebGrease.dll
-C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Mvc\bin\PesquisaComAjax.Data.dll
 C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Mvc\bin\EntityFramework.dll
 C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Mvc\bin\EntityFramework.SqlServer.dll
 C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Mvc\bin\PesquisaComAjax.Application.pdb
 C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Mvc\bin\PesquisaComAjax.CrossCutting.loC.pdb
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Mvc\bin\PesquisaComAjax.Data.pdb
 C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Mvc\bin\PesquisaComAjax.Domain.pdb
 C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Mvc\bin\AutoMapper.xml
 C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Mvc\bin\Microsoft.AI.DependencyCollector.xml
@@ -66,7 +67,6 @@ C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAj
 C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Mvc\bin\System.Web.WebPages.Razor.xml
 C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Mvc\bin\Antlr3.Runtime.pdb
 C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Mvc\bin\Newtonsoft.Json.xml
-C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Mvc\bin\PesquisaComAjax.Data.pdb
 C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Mvc\bin\EntityFramework.xml
 C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Mvc\bin\EntityFramework.SqlServer.xml
 C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Mvc\obj\Debug\PesquisaComAjax.Mvc.csprojResolveAssemblyReference.cache

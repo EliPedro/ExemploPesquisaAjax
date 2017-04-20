@@ -6,6 +6,7 @@ namespace PesquisaComAjax.Domain.Interfaces.Services
     public interface IProdutoService : IServiceBase<Produto>
     {
         IEnumerable<Produto> PesquisarPorNome(string nome);
+        byte[] ObterImagens();
 
     }
 }

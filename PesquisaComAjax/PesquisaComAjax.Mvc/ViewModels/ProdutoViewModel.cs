@@ -1,6 +1,8 @@
 ﻿using System;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.Web;
+using System.Web.Mvc;
 
 namespace PesquisaComAjax.Mvc.ViewModels
 {
@@ -31,6 +33,8 @@ namespace PesquisaComAjax.Mvc.ViewModels
         [Required(ErrorMessage = "Preencha o campo valor")]
         [Range(typeof(decimal), "0", "999999999")]
         public decimal Valor { get; set; }
+
+        public byte[] Imagem { get; set; }
 
         [DisplayName("Disponivel ?")]
         public bool Disponivel { get; set; }

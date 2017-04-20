@@ -67,10 +67,12 @@
   <ItemGroup>
     <Compile Include="Contexto\ContextoDb.cs" />
     <Compile Include="EntityConfig\ProdutoConfiguration.cs" />
+    <Compile Include="Interfaces\IUnitOfWork.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\ProdutoRepository.cs" />
     <Compile Include="Repositories\RepositoryBase.cs" />
+    <Compile Include="UnitOfWork\UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

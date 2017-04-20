@@ -24,6 +24,10 @@ namespace PesquisaComAjax.Data.EntityConfig
                 .HasMaxLength(100)
                 .IsRequired();
 
+
+            Property(p => p.Imagem)
+                .IsRequired();
+
         }
     }
 }

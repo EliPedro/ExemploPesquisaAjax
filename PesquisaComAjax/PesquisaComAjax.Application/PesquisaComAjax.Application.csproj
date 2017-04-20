@@ -32,6 +32,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,13 +42,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppServiceBase.cs" />
+    <Compile Include="Helpers\IsValid.cs" />
     <Compile Include="Interfaces\IAppProdutoService.cs" />
     <Compile Include="Interfaces\IAppServiceBase.cs" />
     <Compile Include="ProdutoAppService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecuperaImagem\ExibirImagem.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <ProjectReference Include="..\PesquisaComAjax.Data\PesquisaComAjax.Data.csproj">
+      <Project>{AD834086-DE0B-4A23-9CAD-82F8998796CA}</Project>
+      <Name>PesquisaComAjax.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PesquisaComAjax.Domain\PesquisaComAjax.Domain.csproj">
       <Project>{165E42A5-AF77-4670-9FA2-55CC63BB13E0}</Project>
       <Name>PesquisaComAjax.Domain</Name>

@@ -1,7 +1,13 @@
 C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Application\bin\Debug\PesquisaComAjax.Application.dll
 C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Application\bin\Debug\PesquisaComAjax.Application.pdb
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Application\bin\Debug\PesquisaComAjax.Data.dll
 C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Application\bin\Debug\PesquisaComAjax.Domain.dll
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Application\bin\Debug\EntityFramework.dll
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Application\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Application\bin\Debug\PesquisaComAjax.Data.pdb
 C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Application\bin\Debug\PesquisaComAjax.Domain.pdb
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Application\bin\Debug\EntityFramework.xml
+C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Application\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Application\obj\Debug\PesquisaComAjax.Application.csprojResolveAssemblyReference.cache
 C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Application\obj\Debug\PesquisaComAjax.Application.dll
 C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Application\obj\Debug\PesquisaComAjax.Application.pdb

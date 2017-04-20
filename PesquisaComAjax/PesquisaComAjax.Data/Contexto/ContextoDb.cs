@@ -32,6 +32,8 @@ namespace PesquisaComAjax.Data.Contexto
             modelBuilder.Properties<string>()
                 .Configure(p => p.HasMaxLength(200));
 
+            modelBuilder.Properties<byte>()
+                .Configure(p => p.HasColumnType("varbinary"));
 
             modelBuilder.Configurations.Add(new ProdutoConfiguration());
 

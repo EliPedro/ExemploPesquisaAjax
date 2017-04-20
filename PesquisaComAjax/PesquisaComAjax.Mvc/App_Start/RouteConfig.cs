@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using PesquisaComAjax.Mvc.App_Start;
 using System.Web.Mvc;
 using System.Web.Routing;
 
@@ -12,6 +9,8 @@ namespace PesquisaComAjax.Mvc
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+
+            //routes.Add(new Route("Home/Imagem", new ImagemRouterHandler()));
 
             routes.MapRoute(
                 name: "Default",

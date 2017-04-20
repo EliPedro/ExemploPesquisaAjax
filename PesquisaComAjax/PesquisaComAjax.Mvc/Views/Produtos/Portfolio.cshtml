@@ -1,0 +1,29 @@
+﻿@model IEnumerable<PesquisaComAjax.Mvc.ViewModels.ProdutoViewModel>
+
+@{
+    ViewBag.Title = "Portfolio";
+}
+
+<h2>Portfolio</h2>
+
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+   </tr>
+
+ @foreach (var item in Model) {
+    <tr>
+        <td>
+            <a href="@Url.Action("ExibirProduto","Produtos",new { id = item.ProdutoId })">
+                <img name="id" id="id" src="~/MyImageHandler.ashx?id=@item.ProdutoId" width="50" height="50" />
+            </a>
+        </td> 
+    </tr>
+ }
+</table>

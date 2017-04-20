@@ -11,6 +11,7 @@ namespace PesquisaComAjax.Domain.Entities
         public DateTime DataCadastro { get; set; }
         public decimal  Valor        { get; set; }
         public bool     Disponivel   { get; set; }
+        public byte[]   Imagem       { get; set; }
 
         public bool IsValid(Produto produto)
         {

@@ -37,6 +37,7 @@ namespace PesquisaComAjax.Application
         public void Remove(TEntity obj)
         {
             _service.Remove(obj);
+         
         }
 
         public void Update(TEntity obj)
