@@ -1,10 +1,12 @@
 ﻿using AutoMapper;
+using Newtonsoft.Json;
 using PesquisaComAjax.Application.Interfaces;
 using PesquisaComAjax.Domain.Entities;
 using PesquisaComAjax.Mvc.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
@@ -17,7 +19,6 @@ namespace PesquisaComAjax.Mvc.Controllers
         public ProdutosController(IAppProdutoService serviceProdutoApp)
         {
             _serviceProdutoApp = serviceProdutoApp;
-
         }
 
         // GET: Produtos
@@ -32,7 +33,6 @@ namespace PesquisaComAjax.Mvc.Controllers
         // GET: Produtos/Details/5
         public ActionResult Details(int id)
         {
-
             var produtoViewModel = Mapper.Map<Produto, ProdutoViewModel>(_serviceProdutoApp.GetById(id));
             return View(produtoViewModel);
         }
@@ -46,44 +46,55 @@ namespace PesquisaComAjax.Mvc.Controllers
         // POST: Produtos/Create
         [Route("Create")]
         [HttpPost]
-        public ActionResult Create(ProdutoViewModel produto, HttpPostedFileBase fotoUpload)
-        {     
-                   
-            if (ModelState.IsValid)
+        public JsonResult Create(ProdutoViewModel produto, HttpPostedFileBase fotoUpload)
+        {
+            if (!ModelState.IsValid)
             {
+                var erro = JsonConvert.SerializeObject(ModelState.Values.Where(x => x.Errors.Count > 0));
 
-                if (fotoUpload != null && fotoUpload.ContentLength > 0)
-                {
-                    if (Application.Helpers.IsValid.IsImage(fotoUpload))
-                    {
-                        produto.Imagem = Application.Helpers.IsValid.ConvertToBytes(fotoUpload);
-
-                        var produtoDomain = Mapper.Map<ProdutoViewModel, Produto>(produto);
-                        _serviceProdutoApp.Add(produtoDomain);
-
-                        return RedirectToAction("Index");
-
-                    }
-                    else
-                    {
-                        ModelState.AddModelError("ImagemFile", "Formato não aceito");
-                        return View(produto);
-
-                    }
-                }
-
+                return Json(erro, JsonRequestBehavior.AllowGet);
             }
-            return View(produto);
 
+            return Json(JsonConvert.SerializeObject("Cadastro efetuado com sucesso!"), JsonRequestBehavior.AllowGet);
         }
 
-      
+        //// POST: Produtos/Create
+        //[Route("Create")]
+        //[HttpPost]
+        //public ActionResult Create(ProdutoViewModel produto, HttpPostedFileBase fotoUpload)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        if (fotoUpload != null && fotoUpload.ContentLength > 0)
+        //        {
+        //            if (Application.Helpers.IsValid.IsImage(fotoUpload))
+        //            {
+        //                produto.Imagem = Application.Helpers.IsValid.ConvertToBytes(fotoUpload);
+
+        //                var produtoDomain = Mapper.Map<ProdutoViewModel, Produto>(produto);
+        //                _serviceProdutoApp.Add(produtoDomain);
+
+        //                return RedirectToAction("Index");
+
+        //            }
+        //            else
+        //            {
+        //                ModelState.AddModelError("ImagemFile", "Formato não aceito");
+        //                return View(produto);
+
+        //            }
+        //        }
+
+        //    }
+        //    return View(produto);
+
+        //}
 
         public ActionResult Pesquisar(string Pesquisar = "")
         {
             var produtoViewModel = Mapper.Map<IEnumerable<Produto>, IEnumerable<ProdutoViewModel>>(_serviceProdutoApp.PesquisarPorNome(Pesquisar));
 
-            if(Request.IsAjaxRequest())
+            if (Request.IsAjaxRequest())
             {
                 return PartialView("_Produtos", produtoViewModel);
             }
@@ -123,7 +134,6 @@ namespace PesquisaComAjax.Mvc.Controllers
             var produtoViewModel = Mapper.Map<Produto, ProdutoViewModel>(produto);
 
             return View(produtoViewModel);
-
         }
 
         [HttpPost, ActionName("Delete")]
@@ -132,33 +142,27 @@ namespace PesquisaComAjax.Mvc.Controllers
         {
             var produtoViewModel = _serviceProdutoApp.GetById(id);
             _serviceProdutoApp.Remove(produtoViewModel);
-          
-           return RedirectToAction("Index");
+
+            return RedirectToAction("Index");
         }
 
         [HttpGet]
         public ActionResult Portfolio()
         {
-
-            var produtoView = Mapper.Map<IEnumerable<Produto>,IEnumerable<ProdutoViewModel>>(_serviceProdutoApp.GetAll());
+            var produtoView = Mapper.Map<IEnumerable<Produto>, IEnumerable<ProdutoViewModel>>(_serviceProdutoApp.GetAll());
 
             return View(produtoView);
-            
         }
 
         [HttpGet]
         public ActionResult ExibirProduto(int id)
         {
-            
-
             return View();
-
         }
 
-        public  byte[] GetImageFromDataBase()
+        public byte[] GetImageFromDataBase()
         {
             return _serviceProdutoApp.ObterImagens();
         }
-
     }
 }

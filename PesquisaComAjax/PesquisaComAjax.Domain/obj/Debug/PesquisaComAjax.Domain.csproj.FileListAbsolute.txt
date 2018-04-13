@@ -2,3 +2,9 @@ C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAj
 C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Domain\bin\Debug\PesquisaComAjax.Domain.pdb
 C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Domain\obj\Debug\PesquisaComAjax.Domain.dll
 C:\Users\elipe\Desktop\ASP.NET\ExemploPesquisaAjax\PesquisaComAjax\PesquisaComAjax.Domain\obj\Debug\PesquisaComAjax.Domain.pdb
+F:\Pessoal\Desenvolvimento\GitHub\Geral\PesquisaComAjax\PesquisaComAjax.Domain\bin\Debug\PesquisaComAjax.Domain.dll
+F:\Pessoal\Desenvolvimento\GitHub\Geral\PesquisaComAjax\PesquisaComAjax.Domain\bin\Debug\PesquisaComAjax.Domain.pdb
+F:\Pessoal\Desenvolvimento\GitHub\Geral\PesquisaComAjax\PesquisaComAjax.Domain\obj\Debug\PesquisaComAjax.Domain.csprojResolveAssemblyReference.cache
+F:\Pessoal\Desenvolvimento\GitHub\Geral\PesquisaComAjax\PesquisaComAjax.Domain\obj\Debug\PesquisaComAjax.Domain.csproj.CoreCompileInputs.cache
+F:\Pessoal\Desenvolvimento\GitHub\Geral\PesquisaComAjax\PesquisaComAjax.Domain\obj\Debug\PesquisaComAjax.Domain.dll
+F:\Pessoal\Desenvolvimento\GitHub\Geral\PesquisaComAjax\PesquisaComAjax.Domain\obj\Debug\PesquisaComAjax.Domain.pdb
