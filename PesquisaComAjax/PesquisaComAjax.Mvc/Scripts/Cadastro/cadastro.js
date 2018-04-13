@@ -11,7 +11,7 @@
         return;
     }
     
-    document.forms[0].reset()
+    document.forms['formCadastro'].reset()
     $("#erros").remove()
     toastr.success(dados, 'Aplicação');
 };
